@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+        <h1>Escola Criança Feliz</h1>
+</head>
+   <body>
+    <header>
+     <nav>
+        <ul>
+        <li><a href="/Cadastro de Alunos/"Cadastro de Alunos>Cadastro de Alunos</a></li>
+        <li><a href="/Lista de Alunos/"Lista de Alunos>Lista de Alunos</a></li>
+        <li><a href="/Contato/"Contato>Contato</a></li>
+    </nav> 
+     </header>
+     <section>
+     <h2>Sobre a nossa Escola:</h2>
+     <p>A Escola Criança Feliz é um ambiente acolhedor e inovador dedicado ao desenvolvimento integral de crianças.<br>Com uma proposta pedagógica que valoriza a criatividade, a diversidade e o aprendizado lúdico, a escola oferece uma educação personalizada que respeita o ritmo e os interesses de cada aluno.<br>
+    Localizada em uma área tranquila, a escola conta com salas de aula equipadas, espaços ao ar livre e uma infraestrutura moderna que estimula a curiosidade e o bem-estar dos pequenos.<br>O corpo docente é formado por profissionais altamente qualificados e apaixonados pelo ensino, que utilizam métodos educativos atualizados para garantir uma aprendizagem eficaz e divertida.<br>
+    Além das atividades acadêmicas, a Escola Criança Feliz promove uma série de oficinas culturais, esportivas e artísticas, proporcionando uma formação completa e enriquecedora.<br>O compromisso com o desenvolvimento emocional e social das crianças é uma prioridade, garantindo um ambiente seguro e estimulante para que cada aluno possa crescer e se desenvolver plenamente.<br>
+   </section>
+   <section>
+    <h2>Missão da Escola Criança Feliz:</h2>
+    <p>A missão da Escola Criança Feliz é proporcionar uma educação de excelência que fomente o desenvolvimento integral das crianças em um ambiente seguro, inclusivo e estimulante.<br>uscamos inspirar e motivar nossos alunos a explorarem suas potencialidades, respeitando suas individualidades e promovendo a formação de cidadãos críticos, criativos e comprometidos com a construção de um futuro mais justo e solidário.</p>
+   </section>
+   <footer>
+    <h2>Informações de Contato da Escola Criança Feliz:</h2>
+        <ul>
+        <li>Endereço: Escola Criança Feliz</li>
+        <li>Rua das Alegrias, 123</li>
+        <li>Bairro Jardim Encantado</li>
+        <li>Cidade Aracaju, SE</li>
+        <li>CEP: 49000-000</li>
+        </ul>
+    <h4>Telefone: (79) 98765-4321</h4>
+   </footer>
+   <section>
+    <section>
+        <hr>
+        <h1>Cadastro de Alunos:</h1>
+        <form action="/pagina-cadastro-de-alunos" method="post">    
+            <div>
+              <label for="nome">Nome:</label>
+              <input type="text" id="nome" />
+              <br>
+            </div>
+            <div>
+              <label for="Data de Nascimento">Data de Nascimento:</label>
+              <input type="data" id="Data"/>
+            </div>
+            <div>
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" />
+            </div>
+            <div>
+                <label for="Turma:">Turma:</label>
+                <select name="viagem">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                </select>
+            </div>
+            <div>
+                <label for="Gênero:">Gênero:</label>
+                <button>
+                    <input type="button">Feminino</Feminino></a>
+                </button>
+                <button>
+                    <input type="button">Masculino</Masculino></a>
+                </button>
+            </div>
+            <div>
+                <label for="Preferências">Preferências:</label>
+                <input type="checkbox">Esportes</label>
+                <input type="checkbox">Música</label>
+                <input type="checkbox">Arte</label>
+            </section>
+            <h2>Observações:</h2>
+            <label for="campo"></label>
+            <textarea id="campo" name="campo" rows="10" cols="44">
+            </textarea>
+            <br>
+            <br>
+            <form id="form">
+            <button>Próximo</button>
+            </form>
+   </section>
+   <section>
+    <hr>
+
+    <h1>Lista de Alunos</h1>
+    <table border="2">
+        <caption>
+           <h2>Alunos cadastrados</h2> 
+        </caption>
+            <thead>
+                <tbody>
+                <tr>
+                  <th>Nome:</th>
+                  <th>Data de Nascimento:</th>
+                  <th>Email:</th>
+                  <th>Turma:</th>
+                  <th>Gênero:</th>
+                  <th>Preferências</th>
+                </tr>
+                <tr>
+                  <td>Marina</td>
+                  <td>20/04/2005</td>
+                  <td>marinaaa@gmail.com</td>
+                  <td>Sala 1-A</td>
+                  <td>Feminino</td>
+                  <td>Artes</td>
+                </tr>
+                <tr>
+                  <td>João Guilherme</td>
+                  <td>01/08/2006</td>
+                  <td>joaozinho@gmail.com</td>
+                  <td>Sala 1-C</td>
+                  <td>Masculino</td>
+                  <td>Esportes</td>
+                </tr>
+                <tr>
+                    <td>Juliana</td>
+                    <td>06/06/2006</td>
+                    <td>Jujuzinha@gmail.com</td>
+                    <td>Sala 1-C</td>
+                    <td>Feminino</td>
+                    <td>Musica</td>
+                </tr>
+                </tbody>
+                </thead>
+              </table>    
+   </section>
+   <br>
+   <hr>
+   <br>
+   <section>
+    <form action="/contato.html"> 
+        <label for="Nome">Nome</label>
+        <input type="text" id="Nome" name="Nome"><br>
+        <label for="Email">Email</label>
+        <input type="email" id="Email" name="Email"><br>
+        <label for="Mensagem">Mensagem</label>
+        <input type="text" id="Mensagem" name="Mensagem"><br>
+        <br>
+        <input type="submit" value="Enviar Cadastro">
+
+    </form>
+</section>
+</body>
+</html>
